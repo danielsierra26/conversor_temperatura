@@ -1,0 +1,20 @@
+# Programa para convertir una cantidad dada de grados centigrados a su equivalente en Farenheit y Kelvin
+
+print("---------------------------------")
+print("---- Conversor de Remperaura ------")
+print("---------------------------------") 
+
+# input
+C = int(input ("DIGITE EL VALOR DE GRADOS CELCIOS: ")) 
+ 
+# proccesing
+F = (C * 1.8 + 32)
+K = (C + 273.15)
+
+# output
+
+print("------------------------------------")
+print("---------- RESULTADO ---------------")
+print("------------------------------------")
+print("La convercion de " + str(C) + " grados Celcius a Fahrenheit es " + str(F))
+print("La convercion de " + str(C) + " grados Celcius a Fahrenheit es " + str(K))
